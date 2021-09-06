@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: Arial, sans-serif;
+  height: auto;
+  width: 1100px;
+  font-family: Tahoma, sans-serif;
+}
+.tharu {
+  padding: 30px;
+  text-align: right;front
+font-size:40px;
+font-family:'Brush Script MT', cursive;
+color:#ffff1a; 
+}
+.logo  {padding: 0px 30px ;
+  position: relative;
+  left:50%;
+top: 150px; 
+
+}
+.logo i 
+{
+  font-size: 40px;
+  padding: 15px;
+  color: rgb(29, 49, 230);
+
+}
+.logo  :hover {
+background-color: #ddd;
+color: rgb(12, 108, 235);
+}
+.head{
+  position: relative;
+  left: 13%;
+}
+
+
+.header p {
+color: rgb(233, 218, 8);
+font-size: 20px;
+position: relative;
+left:-100px ;
+top: 150px;
+
+
+} 
+
+
+.header {
+  padding: 20px;
+  
+  position: absolute;
+  
+  left: 350px;
+  color: rgb(32, 37, 21);
+}
+
+.header h1 {
+  font-size:60px;
+  
+}
+
+.a1 {
+  overflow: hidden;
+  background-color: rgb(53, 51, 51);
+}
+
+.a1 a {
+  float: right;
+  color: rgb(255, 249, 249);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: inline;
+}
+
+.a1 a:hover {
+  background-color: #6a4f8b;
+  color: rgb(179, 177, 67);
+}
+/* .imageSlide{
+  margin: auto;
+  border:border: 5px solid #555;    
+} */
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  border: lightseagreen;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+
+
+
+
+
+.container{
+	width: 1100px;
+  height: 100px;
+
+	
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+.b{
+  border: solid 2px rgb(73, 37, 156);
+  position: relative;
+  left: 13%;
+  top: 100px;
+} 
+.slideshow-container {
+  color: rgb(16, 126, 126);
+position: relative;
+left: 43%;
+top: 90px;
+}
+.slideshow-container h1 span {
+color: rgb(122, 179, 18);
+position: relative;
+left: 2%;
+}
+.g1{
+position: relative;
+left: 70%;
+top: 120px;
+}
+
+.g2{
+position: relative;
+left: 70%;
+top: 250px;
+}
+.g3{
+position: relative;
+left: 1%;
+top: -340px;
+}
+.g4{
+position: relative;
+left: 1%;
+top: -200px;
+}
+
+.g5{
+position: relative;
+left: 34%;
+top: -600px;
+}
+.g{
+  border: solid 5px;
+  position: relative;
+  left: 13%;
+  top: 155px;
+  background-color: antiquewhite;  
+  height:700px ;
+}
+.d{
+  color: rgb(16, 103, 202);
+  position: relative;
+  left:45% ;
+  top: 130px;
+  opacity: 
+}
+.d span{
+  color: #c0a52d;
+  position: relative;
+  left: 2%;
+}
+.last{
+  position: relative;
+  left: 13%;
+  top:170px;
+}
+
+
+
+
+.open-button {
+  background-color: rgb(71, 221, 171);
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: relative;
+  left: 80%;
+  top: -80px;  
+  width: 170px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 30%;
+  right: 550px;
+  border: 3px solid #f1f1f1;
+  z-index: 7;
+  
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+
+.form-container .cancel {
+  background-color: red;
+}
+
+
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+
+
+.v{
+  position: relative;
+  left: 13%;
+  top:100px;
+  border: solid;
+}
+.v h4{
+  position: relative;
+  left: 33%;
+  color: blue;
+  font-size: 20px;
+  font-family:'Allison', cursive;
+}

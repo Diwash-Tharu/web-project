@@ -1,0 +1,46 @@
+body {
+  width: 1100px;
+  background-color: rgb(247, 246, 244);
+  font-family: Tahoma, sans-serif;
+}
+.a1 {
+  width: 1100px;
+  position: relative;
+  left: 0%;
+  overflow: hidden;
+  background-color: rgb(53, 51, 51);
+}
+
+.a1 a {
+  float: right;
+  color: rgb(255, 249, 249);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: inline;
+}
+
+.a1 a:hover {
+  background-color: #6a4f8b;
+  color: rgb(179, 177, 67);
+}
+
+.bg h1 {
+  position: relative;
+  left: 30%;
+}
+.bg p {
+  position: relative;
+  left: 30%;
+  top: 10px;
+}
+
+.bg img {
+  position: relative;
+  left: 70%;
+  top: 10px;
+}
+.all {
+  position: relative;
+  left: 9%;
+}

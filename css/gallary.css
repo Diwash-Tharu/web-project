@@ -1,0 +1,289 @@
+body {
+  width: 1100px;
+  height: auto;
+  scroll-behavior: smooth;
+  background-color: rgb(228, 247, 240);
+  font-family: Tahoma, sans-serif;
+}
+.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+.gallery:hover {
+  border: 1px solid rgb(17, 3, 2);
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  border: solid 2px rgb(172, 226, 226);
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+.a1 {
+  overflow: hidden;
+}
+
+.a1 a {
+  float: right;
+  color: rgb(10, 8, 1);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.a1 a:hover {
+  background-color: #c58282;
+  color: rgb(252, 207, 207);
+}
+.head h1 {
+  font-family: Gabriola, Times, serif;
+  position: relative;
+  left: 40%;
+}
+.boad {
+  border: black solid;
+}
+.position {
+  position: relative;
+  left: 5%;
+  top: 15%;
+}
+.post {
+  position: relative;
+  left: 10%;
+}
+.g1 {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  position: relative;
+  left: -35%;
+  top: -190px;
+}
+.g1 :hover {
+  border: 1px solid rgb(17, 3, 2);
+}
+.g1 img {
+  width: 100%;
+  height: 120px;
+  border: solid 2px rgb(172, 226, 226);
+}
+
+.g2 {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  position: relative;
+  left: 17%;
+  top: -400px;
+}
+.g2 :hover {
+  border: 1px solid rgb(17, 3, 2);
+}
+.g2 img {
+  width: 100%;
+  height: 120px;
+  border: solid 2px rgb(34, 131, 131);
+}
+.g3 {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  position: relative;
+  left: -18%;
+  top: -400px;
+}
+.g3 :hover {
+  border: 1px solid rgb(17, 3, 2);
+}
+.g3 img {
+  width: 100%;
+  height: auto;
+  border: solid 2px rgb(172, 226, 226);
+}
+.head h1 {
+  color: rgb(126, 139, 67);
+}
+.head h1 span {
+  color: blue;
+}
+
+.a1 {
+  width: 1100px;
+  position: relative;
+  left: 0%;
+  overflow: hidden;
+  background-color: rgb(53, 51, 51);
+}
+
+.a1 a {
+  float: right;
+  color: rgb(255, 249, 249);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: inline;
+}
+
+.a1 a:hover {
+  background-color: #6a4f8b;
+  color: rgb(179, 177, 67);
+}
+
+.open-button {
+  background-color: rgb(71, 221, 171);
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: relative;
+  left: 80%;
+  top: -80px;
+  width: 170px;
+}
+
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 30%;
+  right: 550px;
+  border: 3px solid #f1f1f1;
+  z-index: 7;
+}
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+.form-container input[type="text"],
+.form-container input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+.form-container input[type="text"]:focus,
+.form-container input[type="password"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.form-container .btn {
+  background-color: #04aa6d;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+
+.form-container .cancel {
+  background-color: red;
+}
+
+.form-container .btn:hover,
+.open-button:hover {
+  opacity: 1;
+}
+
+.last {
+  position: relative;
+  left: 8%;
+  top: 30px;
+  width: 1200px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1100px;
+  height: 100px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+ul {
+  list-style: none;
+}
+.footer {
+  background-color: #24262b;
+  padding: 70px 0;
+}
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 8px;
+}
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover {
+  color: #24262b;
+  background-color: #ffffff;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>safari</title>
+    <link rel="stylesheet" type="text/css" href="./css/safari.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+  </head>
+  <body>
+
+     <div class="a1">
+        <a href="http://127.0.0.1:5500/contact.html?name=&email=&birthday=&Adress=&quantity=&cardname=&cardnumber=&expmonth=&expyear=&cvv=">Contact</a>
+        <a href="http://127.0.0.1:5500/about.html?email=&subject=">Service</a>
+        <a href="http://127.0.0.1:5500/balank.html">Target</a>
+        <a href="http://127.0.0.1:5500/gallary.html">Gallary</a>
+        <a href="http://127.0.0.1:5500/ThingTo.html#">Thing To DO</a>
+        <a href="http://127.0.0.1:5500/placeToSee.html">Place To See </a>
+        <a href="http://127.0.0.1:5500/index.html" style="float: left">Home</a>
+      </div>
+
+    <div class="all">
+    <div
+      style="
+        background-image: url(https://www.adventureclubtrek.com/uploads/images/Jungle-safari-tours-_in-nepal-wildlife-tours-_in-nepal.jpg);
+        width: 700;
+        height: 576px; border: solid 5px cadetblue
+      "
+      class="gungle"
+    >
+      <h3>Jungle Safari in Nepal</h3>
+      
+
+    </div>
+    <div class="page">
+        <p><br>
+            <br>Chitwan National Park in the central Terai lowlands and Bardia National Park in the western Terai provide some of the best wildlife and nature viewing places in Asia. Tour on elephant back, jeep and boat. We have a choice of Jungle Lodges, Tented Camps and Guest Houses from where you can explore the Himalayan parks and its wildlife. Accommodation in lodge/tented camp, all sightseeing and outings including elephant back safari, nature/bird walk, boat ride, jeep safari (as per specific itinerary provided for different packages), park entrance fees, all meals for the duration of the package tour. Situated in forest setting in an area rich in the diverse ecology of this park, this unique wildlife resort presents the perfect jungle experience.<br>
+            <br>The original tented camp and the newly constructed jungle resort in an area highly acclaimed for animal sighting is the attraction of this resort. The area covered is an island in the River Narayani, home to the two types of crocodiles found in Nepal and hundreds of migratory birds.<br>
+            <br>Bardia national Park situated in western Terai of Nepal is one of largest undisturbed parks in the region. The park is the home of many endangered animals, reptiles and birds - including the elusive Tiger. Over the years Bardia has also been a good place for tiger viewing - a rare event anywhere. Recently sightings of a group of wild elephants have further enhanced the wildlife experience possible in this beautiful and unspoiled sanctuary<br>
+            <br>The Kosi Tapu and the Kosi Barrage in east Nepal provide one of the best places in Nepal to view migratory waterfall, waders and shore birds during the winter months. Many species not recorded elsewhere in the region have been seen here. Thousands of birds congregate here in January and February before they migrate north when the warm weather begins.<br>
+        </p>
+    </div>
+    </div>
+
+     <div class="last">
+            <footer class="footer">
+            <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                <h4>company</h4>
+                <ul>
+                    
+                    <li><a href="http://127.0.0.1:5500/about.html?email=&subject=">our services</a></li>
+                    
+                </ul>
+                </div>
+                <div class="footer-col">
+                <h4>get help</h4>
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/contact.html">contact</a></li>
+                </ul>
+                </div>
+
+                
+                
+                <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="social-links">
+                    <a href="https://www.google.com/search?q=face+book&sxsrf=AOaemvIuCh_pzpERCdH8hsQ5uDxruBjW-g%3A1630653724014&ei=HM0xYfMqo4qaB_WWn8gH&oq=face+book&gs_lcp=Cgdnd3Mtd2l6EAMyDwguEMcBENEDEAoQQxCTAjIHCAAQgAQQCjIFCAAQgAQyBwgAEIAEEAoyBQgAEIAEMgcIABCABBAKMgcIABCABBAKMgcILhCABBAKMgUIABCABDIHCAAQgAQQCjoHCAAQRxCwAzoQCC4QxwEQ0QMQsAMQQxCTAkoECEEYAFDPJljPJmDjKGgBcAJ4AIABsgGIAbIBkgEDMC4xmAEAoAEByAEJwAEB&sclient=gws-wiz&ved=0ahUKEwjzqOK_ouLyAhUjheYKHXXLB3kQ4dUDCA4&uact=5"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/"><i class="fab fa-github"></i></a>
+                </div>
+                </div>
+
+            </div>
+
+            </div>
+
+            
+            <button class="open-button" onclick="openForm()">Log In</button>
+
+        <div class="form-popup" id="myForm">
+          <form class="form-container">
+            <h1>Login</h1>
+
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <button type="submit" class="btn">Login</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+          </form>
+        </div>
+
+        
+
+        <script>
+        function openForm() {
+          document.getElementById("myForm").style.display = "block";
+        }
+
+        function closeForm() {
+          document.getElementById("myForm").style.display = "none";
+        }
+        </script>
+
+          </footer>
+        </div>
+        
+
+  </body>
+</html>
